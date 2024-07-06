@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CrmSdk.CoreAssemblies" Version="9.0.2.11" />
+</ItemGroup>
+    <ItemGroup>
+        <Reference Include="Microsoft.Xrm.Sdk">
+            <HintPath>lib/net462/Microsoft.Xrm.Sdk.dll</HintPath>
+        </Reference>
+        <Reference Include="Microsoft.Crm.Sdk.Proxy">
+            <HintPath>lib/net462/Microsoft.Crm.Sdk.Proxy.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+
+</Project>

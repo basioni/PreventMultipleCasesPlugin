@@ -1,0 +1,22 @@
+# Ignore Visual Studio Code and MonoDevelop files
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln.docstates
+
+# Ignore build output and NuGet packages
+bin/
+obj/
+packages/
+
+# Ignore specific Dynamics 365 SDK assemblies (adjust as needed)
+**/Microsoft.Xrm.Sdk.dll
+**/Microsoft.Crm.Sdk.Proxy.dll
+
+# Ignore user-specific files
+*.bak
+*.log
+
+# Ignore NuGet package restore files
+packages.lock.json
